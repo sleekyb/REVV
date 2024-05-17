@@ -1,0 +1,59 @@
+.toplayer {
+  background: #f4f4f4;
+  height: 30px;
+  text-align: right;
+}
+
+@media (min-width: 766px) {
+  .navbar-nav {
+    margin-left: 264px;
+  }
+}
+
+.navbar-nav {
+  gap: 1.2rem;
+}
+
+@media (max-width: 767px) {
+  .toplayer {
+    display: none;
+  }
+}
+
+.sidenav {
+  z-index: 3;
+  height: 59px;
+  transform: translateY(12px);
+  background: rgba(0,0,0,0);
+  text-align: right;
+  width: 95%;
+}
+
+@media (max-width: 767px) {
+  .sidenav {
+    margin-left: -75px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-item2 {
+    display: none;
+  }
+}
+
+h1 {
+}
+
+@media (max-width: 576px) {
+  .sleeve {
+    font-size: 26px;
+    margin-left: 65px;
+  }
+}
+
+@media (min-width: 600px) {
+  .sleeve {
+    margin-left: 116px;
+  }
+}
+
